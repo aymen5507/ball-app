@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.simcoder.uber">
+    package="com.gearnest.uber">
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -40,11 +40,11 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity android:name="com.simcoder.uber.Driver.DriverChooseTypeActivity" />
-        <activity android:name="com.simcoder.uber.Payment.PaymentActivity" />
-        <activity android:name="com.simcoder.uber.Payment.PayoutActivity" />
-        <activity android:name="com.simcoder.uber.Payment.AddPaymentActivity" />
-        <activity android:name="com.simcoder.uber.Login.DetailsActivity" />
+        <activity android:name="com.gearnest.uber.Driver.DriverChooseTypeActivity" />
+        <activity android:name="com.gearnest.uber.Payment.PaymentActivity" />
+        <activity android:name="com.gearnest.uber.Payment.PayoutActivity" />
+        <activity android:name="com.gearnest.uber.Payment.AddPaymentActivity" />
+        <activity android:name="com.gearnest.uber.Login.DetailsActivity" />
 
         <uses-library
             android:name="org.apache.http.legacy"
